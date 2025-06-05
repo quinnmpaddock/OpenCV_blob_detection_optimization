@@ -1,0 +1,29 @@
+{
+    "rows": 10, 
+    "columns": 10,
+    "overlap": 50,
+    "scale_factor": 0.8,
+    "threshold_distance": 20, 
+    "save_directory": "keypoint_images", 
+    "mask_cushion": 12,
+
+    "normal_debris_params":{
+        "min_inertia_ratio": 0.3,
+        "max_inertia_ratio": 1
+    },
+
+    "thin_debris_params":{
+        "min_inertia_ratio": 0.001,
+        "max_inertia_ratio": 0.29
+    },
+    "general_params":{
+        "min_blob_area": 5,
+        "max_blob_area": 5000
+    }
+    
+
+
+
+
+
+}
